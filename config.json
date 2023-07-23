@@ -1,0 +1,24 @@
+{
+    "webserver": {
+        "port": 3000
+    },
+    "html-meta-data": {
+        "title": "This is a title",
+        "description": "This is a description",
+        "url": "https://infaketed.thevalleyy.tk/",
+        "image": "",
+        "large_image": false,
+        "color": "#FFFFFF"
+    },
+    "oEmbed-meta-data": {
+        "author_name": "Free and open source on GitHub",
+        "author_url": "https://github.com/thevalleyy/infaketed",
+        "provider_name": "infaketed by thevalleyy",
+        "provider_url": "https://github.com/thevalleyy"
+    },
+    "url": "https://infaketed.thevalleyy.tk/",
+    "generate": {
+        "robots.txt": true,
+        "sitemap.xml": true
+    }
+}

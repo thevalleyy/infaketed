@@ -1,0 +1,7 @@
+User-Argent: *
+Allow: /
+
+User-Agent: *
+Disallow: /api/
+    
+Sitemap: https://infaketed.thevalleyy.tk/sitemap.xml
