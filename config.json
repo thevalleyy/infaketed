@@ -3,6 +3,20 @@
         "port": 3000
     },
     "flicker-colors": ["#BD93F9", "#8BE9FD", "#F1FA8C", "#50FA7B", "#FF79C6", "#FF5555", "#FFFFFF", "#555555"],
+    "subheading-sentences": [
+        "Choose a ransomware lock screen",
+        "Free and open source on GitHub",
+        "Made with JavaScript",
+        "Made with NodeJS",
+        "Use this to prank your friends",
+        "Prank your Computer Science teacher",
+        "[Object object]",
+        "Made with <3",
+        "btw the code is on GitHub",
+        "I use Windows btw",
+        "btw the Object object thing is a joke",
+        "We're no strangers to love"
+    ],
     "html-meta-data": {
         "title": "This is a title",
         "description": "This is a description",

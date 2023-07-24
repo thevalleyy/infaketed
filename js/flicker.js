@@ -10,7 +10,7 @@ async function flicker(flicker, color, newColor) {
     }
 
     // short flicker
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 3; i++) {
         flicker.style.color = newColor;
         await wait(Math.floor(Math.random() * 150) + 50);
         flicker.style.color = color;
