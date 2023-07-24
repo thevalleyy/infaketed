@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import wait from "../js/wait.js";
-import rgbToHex from "../js/rgbToHex.js";
+import rgbhex from "../js/rgbhex.js";
 import flickerFunc from "../js/flicker.js";
 
 const config = require("../config.json");
@@ -39,7 +39,7 @@ export default function Home() {
                 .replace(/[^0-9,]/g, "")
                 .split(",");
 
-            const color = rgbToHex(parseInt(rgb[0]), parseInt(rgb[1]), parseInt(rgb[2]));
+            const color = rgbhex(parseInt(rgb[0]), parseInt(rgb[1]), parseInt(rgb[2]));
             let newColor = color;
             while (newColor == color) newColor = colorArr[Math.floor(Math.random() * colorArr.length)].toLowerCase();
 
