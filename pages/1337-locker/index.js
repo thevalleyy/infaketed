@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
-import axios from "axios";
+import Link from "next/link";
 
 const config = require("../../config.json");
 const metaData = config["html-meta-data"];
@@ -24,7 +24,7 @@ export default function Home() {
             </Head>
             <div>
                 <h1>
-                    <a href="/">Infaketed</a>
+                    <Link href="/">Infaketed</Link>
                 </h1>
                 <p>1337-locker</p>
             </div>
