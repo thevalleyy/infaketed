@@ -3,11 +3,26 @@
 - https://www.fontspace.com/arcade-classic-font-f3284
 - https://www.fontspace.com/token-font-f3309
 - https://www.fontspace.com/doppler-font-f3292
+- https://codepen.io/dig-lopes/pen/WLVGda
 
 - https://sensorstechforum.com/it/remove-1337-locker-ransomware-restore-files/
 
 TODO:
 - lightmode switch
 - mobile (diesmal wirklich)
-- irgenwo link zum repo
 - "du hast einen neuen vorschlag? erstelle einen issue auf github" splash text
+- glitch effect bei hover
+- favicon glitch (negativ bild oder s.ä.)
+- bei zwei zeilen infotext soll sich nicht die gesamte website verschieben
+- texte mit einem query parameter deaktivieren
+- warning? ganz unten ?
+- icons mit links ganz unten?
+
+
+
+
+
+- noTyping: Der Text wird nicht getippt, stattdessen nur ein random text einmal angezeigt
+- noUnderscore: Der Unterstrich pulsiert nicht, sondern wird direkt angezeigt
+- noSubheading: Kein Subheading
+- noFlicker: Kein Flicker Effekt
