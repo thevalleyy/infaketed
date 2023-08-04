@@ -256,3 +256,31 @@ a:hover,
 a:active {
     text-decoration: none;
 }
+
+.pizza {
+    visibility: hidden;
+    position: fixed;
+    bottom: 0;
+    left: 3px;
+    width: 100px;
+}
+
+/* make the pizza roll to the left  */
+.roll-animation {
+    animation: rollAnimation 2s linear 1;
+}
+
+@keyframes rollAnimation {
+    0% {
+        transform: translateX(0) translateY(0) rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+    95% {
+        transform: translateX(calc(95vw)) translateY(0vh) rotate(642deg);
+        animation-timing-function: linear;
+    }
+    100% {
+        transform: translateX(calc(100vw)) translateY(2vh) rotate(360deg);
+        animation-timing-function: ease-out;
+    }
+}

@@ -6,6 +6,7 @@
 - https://codepen.io/dig-lopes/pen/WLVGda
 
 - https://sensorstechforum.com/it/remove-1337-locker-ransomware-restore-files/
+- https://meliz-palast.de/produkt/pizza-salami/
 
 TODO:
 - lightmode switch
@@ -14,9 +15,6 @@ TODO:
 - glitch effect bei hover
 - favicon glitch (negativ bild oder s.ä.)
 - bei zwei zeilen infotext soll sich nicht die gesamte website verschieben
-- texte mit einem query parameter deaktivieren
-- warning? ganz unten ?
-- icons mit links ganz unten?
 
 
 
