@@ -7,14 +7,14 @@
 
 - https://sensorstechforum.com/it/remove-1337-locker-ransomware-restore-files/
 - https://meliz-palast.de/produkt/pizza-salami/
+- https://realfavicongenerator.net/
 
 TODO:
 - lightmode switch
 - mobile (diesmal wirklich)
-- "du hast einen neuen vorschlag? erstelle einen issue auf github" splash text
 - glitch effect bei hover
-- favicon glitch (negativ bild oder s.ä.)
 - bei zwei zeilen infotext soll sich nicht die gesamte website verschieben
+- evtl. die abgerundeten favicons einfach rauslassen
 
 
 
@@ -24,3 +24,5 @@ TODO:
 - noUnderscore: Der Unterstrich pulsiert nicht, sondern wird direkt angezeigt
 - noSubheading: Kein Subheading
 - noFlicker: Kein Flicker Effekt
+- noWarning: keine Portrait-Mode Warnung
+- noFavicon: Das Favicon ist statisch

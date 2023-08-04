@@ -1,4 +1,4 @@
-const wait = require("./wait.js");
+const favicon = require("./favicon.js");
 
 function keyevent(document) {
     let string = "";
@@ -27,7 +27,7 @@ function keyevent(document) {
         }
 
         if (string.endsWith("kill")) window.location.replace("https://google.com");
-        if (string.endsWith("rick")) window.location.replace("https://www.youtube.com/watch?v=dQw4w9WgXcQ");
+        if (string.endsWith("rick")) window.location = "https://www.youtube.com/watch?v=dQw4w9WgXcQ";
         if (string.endsWith("pizza")) {
             const pizzaImage = document.getElementById("pizzaImage");
             pizzaImage.style.visibility = "visible";
@@ -40,6 +40,7 @@ function keyevent(document) {
                 pizzaImage.style.visibility = "hidden";
             });
         }
+        if (string.endsWith("favicon")) favicon(document, true); // ote (one time execution)
     }); // powered by spaghetti code
 }
 
