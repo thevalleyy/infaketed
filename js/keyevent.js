@@ -1,4 +1,5 @@
 const favicon = require("./favicon.js");
+const flicker = require("./flickerloop.js");
 
 function keyevent(document) {
     let string = "";
@@ -41,6 +42,8 @@ function keyevent(document) {
             });
         }
         if (string.endsWith("favicon")) favicon(document, true); // ote (one time execution)
+        if (string == "keycodes") window.open("./keycodes", "keycodes", "height=195,width=245").focus();
+        if (string.endsWith("flicker")) flicker(document, true); // ote
     }); // powered by spaghetti code
 }
 

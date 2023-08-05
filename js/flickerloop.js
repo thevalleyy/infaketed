@@ -22,9 +22,9 @@ async function flicker(flicker, color, newColor) {
     flicker.style.color = newColor;
 }
 
-async function flickerloop(document) {
+async function flickerloop(document, skipwait = false) {
     const flickerElement = document.getElementById("flicker");
-    await wait(Math.floor(Math.random() * 875000) + 25000);
+    if (!skipwait) await wait(Math.floor(Math.random() * 875000) + 25000);
     // await wait(Math.floor(Math.random() * 5000) + 2000);
 
     // determine new color, make sure it's not the same as the current color

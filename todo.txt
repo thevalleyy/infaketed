@@ -12,9 +12,7 @@
 TODO:
 - lightmode switch
 - mobile (diesmal wirklich)
-- glitch effect bei hover
-- bei zwei zeilen infotext soll sich nicht die gesamte website verschieben
-- evtl. die abgerundeten favicons einfach rauslassen
+- config: möglichkeiten, ähnlich wie query parameters
 
 
 
@@ -26,3 +24,4 @@ TODO:
 - noFlicker: Kein Flicker Effekt
 - noWarning: keine Portrait-Mode Warnung
 - noFavicon: Das Favicon ist statisch
+- noGlitch: Kein Glitch Effekt beim hovern

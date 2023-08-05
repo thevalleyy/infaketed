@@ -1,0 +1,11 @@
++-----------+----------------+
+| keyevent  |  description   |
++-----------+----------------+
+| favicon_  | favicon cycle  |
+| flicker_  | flicker cycle  |
+| keycodes  | open this list |
+| kill____  | kill the site  |
+| pizza___  | pizza!         |
+| rick____  | nggyunglyd     |
+| settings  | settings menu  |
++-----------+----------------+

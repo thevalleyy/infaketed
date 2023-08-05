@@ -16,6 +16,7 @@ async function favicon(document, skipwait = false) {
     favicon(document);
 
     async function trigger() {
+        if (!document.hasFocus()) return;
         if (state == "white") {
             console.log("transition from white to black background");
             await WtoB1();
@@ -40,7 +41,7 @@ async function favicon(document, skipwait = false) {
     async function flicker() {
         for (let i = 0; i <= 5; i++) {
             link.href = "./fav/fav" + (33 + (i % 2)) + ".png";
-            await wait(25 + Math.floor(Math.random() * 35));
+            await wait(50 + Math.floor(Math.random() * 35));
         }
     }
 
@@ -48,7 +49,7 @@ async function favicon(document, skipwait = false) {
     async function WtoB1() {
         for (let i = 0; i <= 34; i++) {
             link.href = "./fav/fav" + i + ".png";
-            await wait(25);
+            await wait(50);
         }
     }
 
@@ -56,21 +57,21 @@ async function favicon(document, skipwait = false) {
     async function WtoB2() {
         for (let i = 34; i <= 67; i++) {
             link.href = "./fav/fav" + i + ".png";
-            await wait(25);
+            await wait(50);
         }
     }
 
     async function BtoW1() {
         for (let i = 67; i >= 34; i--) {
             link.href = "./fav/fav" + i + ".png";
-            await wait(25);
+            await wait(50);
         }
     }
 
     async function BtoW2() {
         for (let i = 34; i >= 0; i--) {
             link.href = "./fav/fav" + i + ".png";
-            await wait(25);
+            await wait(50);
         }
     }
 }

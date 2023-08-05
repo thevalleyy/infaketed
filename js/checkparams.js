@@ -3,6 +3,7 @@ const runTypewriter = require("./typewriter.js");
 const portraitwarning = require("./portraitwarning.js");
 const flickerloop = require("./flickerloop.js");
 const favicon = require("./favicon.js");
+const glitch = require("./glitch-effekt.js");
 
 function checkparams(params, document, window) {
     if (params.noSubheading) {
@@ -15,6 +16,7 @@ function checkparams(params, document, window) {
     else runTypewriter(document, true);
     if (!params.noWarning) portraitwarning(document, window);
     if (!params.noFavicon) favicon(document);
+    if (!params.noGlitch) glitch(document);
 }
 
 module.exports = checkparams;

@@ -5,6 +5,27 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: "Doppler";
+    src: url("font/Doppler-G3WA.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Token";
+    src: url("font/Token-wo92.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Glitch";
+    src: url("font/GlitchGoblin-2O87v.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
 * {
     font-family: "ArcadeClassic", sans-serif;
     touch-action: manipulation;
@@ -54,7 +75,7 @@ body {
     justify-content: center;
     align-items: center;
     height: max(3em, 10vh);
-    transition: box-shadow 0.2s ease-out;
+    transition: all 0.2s ease-out;
     display: flex;
 }
 
@@ -91,8 +112,15 @@ body {
 
 .subheading {
     font-size: 1.5em;
+    height: 5.9em;
     font-weight: bold;
     text-align: center;
+
+    display: -webkit-box; /* Für WebKit-basierte Browser */
+    -webkit-box-orient: vertical; /* Für WebKit-basierte Browser */
+    -webkit-line-clamp: 4; /* Maximale Anzahl der Zeilenumbrüche */
+    line-clamp: 4;
+    overflow: hidden;
 }
 
 .warning {

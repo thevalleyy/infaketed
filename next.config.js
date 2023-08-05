@@ -6,6 +6,10 @@ const nextConfig = {
                 source: "/sus",
                 destination: "/sus.txt",
             },
+            {
+                source: "/keycodes",
+                destination: "/keycodes.txt",
+            },
         ];
     },
 };
