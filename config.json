@@ -2,6 +2,15 @@
     "webserver": {
         "port": 3000
     },
+    "settings": {
+        "subheading": true,
+        "underscore": true,
+        "typing": true,
+        "flicker": true,
+        "warning": true,
+        "favicon": true,
+        "glitch": true
+    },
     "flicker-colors": [
         "#BD93F9",
         "#8BE9FD",
