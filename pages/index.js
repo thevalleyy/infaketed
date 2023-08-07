@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import Head from "next/head";
 import checkparams from "../js/checkparams.js";
 import keyevent from "../js/keyevent.js";
+import Image from "next/image";
 
 const config = require("../config.json");
 const metaData = config["html-meta-data"];
@@ -126,7 +127,7 @@ export default function Home() {
                     </li>
                 </ul>
                 <a href="https://www.youtube.com/watch?v=u2Ndm9Lqijc" draggable="false" target="_blank" style={{ cursor: "default" }}>
-                    <img src="/images/pizza.png" className="pizza" draggable="false" id="pizzaImage" />
+                    <Image src="/images/pizza.png" className="pizza" draggable="false" id="pizzaImage" alt="rolling pizza" width={100} height={100} />
                 </a>
             </div>
         </>
